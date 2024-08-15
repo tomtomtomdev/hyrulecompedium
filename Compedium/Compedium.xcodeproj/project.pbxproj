@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		567913FB2C6C824B00FD9AAE /* CompediumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567913FA2C6C824B00FD9AAE /* CompediumApp.swift */; };
+		567913FD2C6C824B00FD9AAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567913FC2C6C824B00FD9AAE /* ContentView.swift */; };
+		567913FF2C6C824D00FD9AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567913FE2C6C824D00FD9AAE /* Assets.xcassets */; };
+		567914022C6C824D00FD9AAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567914012C6C824D00FD9AAE /* Preview Assets.xcassets */; };
+		5679140C2C6C824D00FD9AAE /* CompediumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5679140B2C6C824D00FD9AAE /* CompediumTests.swift */; };
+		567914162C6C824D00FD9AAE /* CompediumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567914152C6C824D00FD9AAE /* CompediumUITests.swift */; };
+		567914182C6C824D00FD9AAE /* CompediumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567914172C6C824D00FD9AAE /* CompediumUITestsLaunchTests.swift */; };
+		567914252C6C825500FD9AAE /* HyruleCompendiumAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567914242C6C825500FD9AAE /* HyruleCompendiumAPI.swift */; };
+		567914282C6C826D00FD9AAE /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567914272C6C826D00FD9AAE /* NetworkService.swift */; };
+		5679142B2C6C828700FD9AAE /* CompendiumRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5679142A2C6C828700FD9AAE /* CompendiumRepository.swift */; };
+		5679142D2C6C829C00FD9AAE /* CompendiumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5679142C2C6C829C00FD9AAE /* CompendiumViewModel.swift */; };
+		567914302C6C82C500FD9AAE /* CompendiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5679142F2C6C82C500FD9AAE /* CompendiumView.swift */; };
+		567914332C6C82DA00FD9AAE /* EntryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567914322C6C82DA00FD9AAE /* EntryDetailView.swift */; };
+		567914352C6CDCAA00FD9AAE /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567914342C6CDCAA00FD9AAE /* Entry.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		567914082C6C824D00FD9AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 567913EF2C6C824B00FD9AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 567913F62C6C824B00FD9AAE;
+			remoteInfo = Compedium;
+		};
+		567914122C6C824D00FD9AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 567913EF2C6C824B00FD9AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 567913F62C6C824B00FD9AAE;
+			remoteInfo = Compedium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		567913F72C6C824B00FD9AAE /* Compedium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Compedium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		567913FA2C6C824B00FD9AAE /* CompediumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompediumApp.swift; sourceTree = "<group>"; };
+		567913FC2C6C824B00FD9AAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		567913FE2C6C824D00FD9AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		567914012C6C824D00FD9AAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		567914072C6C824D00FD9AAE /* CompediumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompediumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5679140B2C6C824D00FD9AAE /* CompediumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompediumTests.swift; sourceTree = "<group>"; };
+		567914112C6C824D00FD9AAE /* CompediumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompediumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		567914152C6C824D00FD9AAE /* CompediumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompediumUITests.swift; sourceTree = "<group>"; };
+		567914172C6C824D00FD9AAE /* CompediumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompediumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		567914242C6C825500FD9AAE /* HyruleCompendiumAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyruleCompendiumAPI.swift; sourceTree = "<group>"; };
+		567914272C6C826D00FD9AAE /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		5679142A2C6C828700FD9AAE /* CompendiumRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompendiumRepository.swift; sourceTree = "<group>"; };
+		5679142C2C6C829C00FD9AAE /* CompendiumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompendiumViewModel.swift; sourceTree = "<group>"; };
+		5679142F2C6C82C500FD9AAE /* CompendiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompendiumView.swift; sourceTree = "<group>"; };
+		567914322C6C82DA00FD9AAE /* EntryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailView.swift; sourceTree = "<group>"; };
+		567914342C6CDCAA00FD9AAE /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		567913F42C6C824B00FD9AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567914042C6C824D00FD9AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5679140E2C6C824D00FD9AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		567913EE2C6C824B00FD9AAE = {
+			isa = PBXGroup;
+			children = (
+				567913F92C6C824B00FD9AAE /* Compedium */,
+				5679140A2C6C824D00FD9AAE /* CompediumTests */,
+				567914142C6C824D00FD9AAE /* CompediumUITests */,
+				567913F82C6C824B00FD9AAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		567913F82C6C824B00FD9AAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				567913F72C6C824B00FD9AAE /* Compedium.app */,
+				567914072C6C824D00FD9AAE /* CompediumTests.xctest */,
+				567914112C6C824D00FD9AAE /* CompediumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		567913F92C6C824B00FD9AAE /* Compedium */ = {
+			isa = PBXGroup;
+			children = (
+				567913FA2C6C824B00FD9AAE /* CompediumApp.swift */,
+				567913FC2C6C824B00FD9AAE /* ContentView.swift */,
+				567914312C6C82D300FD9AAE /* View */,
+				5679142E2C6C82A700FD9AAE /* ViewModel */,
+				567914292C6C827D00FD9AAE /* Network */,
+				567914262C6C826600FD9AAE /* Api */,
+				567914362C6CDCB600FD9AAE /* Model */,
+				567913FE2C6C824D00FD9AAE /* Assets.xcassets */,
+				567914002C6C824D00FD9AAE /* Preview Content */,
+			);
+			path = Compedium;
+			sourceTree = "<group>";
+		};
+		567914002C6C824D00FD9AAE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				567914012C6C824D00FD9AAE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5679140A2C6C824D00FD9AAE /* CompediumTests */ = {
+			isa = PBXGroup;
+			children = (
+				5679140B2C6C824D00FD9AAE /* CompediumTests.swift */,
+			);
+			path = CompediumTests;
+			sourceTree = "<group>";
+		};
+		567914142C6C824D00FD9AAE /* CompediumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				567914152C6C824D00FD9AAE /* CompediumUITests.swift */,
+				567914172C6C824D00FD9AAE /* CompediumUITestsLaunchTests.swift */,
+			);
+			path = CompediumUITests;
+			sourceTree = "<group>";
+		};
+		567914262C6C826600FD9AAE /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				567914242C6C825500FD9AAE /* HyruleCompendiumAPI.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		567914292C6C827D00FD9AAE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5679142A2C6C828700FD9AAE /* CompendiumRepository.swift */,
+				567914272C6C826D00FD9AAE /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5679142E2C6C82A700FD9AAE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5679142C2C6C829C00FD9AAE /* CompendiumViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		567914312C6C82D300FD9AAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5679142F2C6C82C500FD9AAE /* CompendiumView.swift */,
+				567914322C6C82DA00FD9AAE /* EntryDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		567914362C6CDCB600FD9AAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				567914342C6CDCAA00FD9AAE /* Entry.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		567913F62C6C824B00FD9AAE /* Compedium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5679141B2C6C824D00FD9AAE /* Build configuration list for PBXNativeTarget "Compedium" */;
+			buildPhases = (
+				567913F32C6C824B00FD9AAE /* Sources */,
+				567913F42C6C824B00FD9AAE /* Frameworks */,
+				567913F52C6C824B00FD9AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Compedium;
+			productName = Compedium;
+			productReference = 567913F72C6C824B00FD9AAE /* Compedium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		567914062C6C824D00FD9AAE /* CompediumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5679141E2C6C824D00FD9AAE /* Build configuration list for PBXNativeTarget "CompediumTests" */;
+			buildPhases = (
+				567914032C6C824D00FD9AAE /* Sources */,
+				567914042C6C824D00FD9AAE /* Frameworks */,
+				567914052C6C824D00FD9AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				567914092C6C824D00FD9AAE /* PBXTargetDependency */,
+			);
+			name = CompediumTests;
+			productName = CompediumTests;
+			productReference = 567914072C6C824D00FD9AAE /* CompediumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		567914102C6C824D00FD9AAE /* CompediumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 567914212C6C824D00FD9AAE /* Build configuration list for PBXNativeTarget "CompediumUITests" */;
+			buildPhases = (
+				5679140D2C6C824D00FD9AAE /* Sources */,
+				5679140E2C6C824D00FD9AAE /* Frameworks */,
+				5679140F2C6C824D00FD9AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				567914132C6C824D00FD9AAE /* PBXTargetDependency */,
+			);
+			name = CompediumUITests;
+			productName = CompediumUITests;
+			productReference = 567914112C6C824D00FD9AAE /* CompediumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		567913EF2C6C824B00FD9AAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					567913F62C6C824B00FD9AAE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					567914062C6C824D00FD9AAE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 567913F62C6C824B00FD9AAE;
+					};
+					567914102C6C824D00FD9AAE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 567913F62C6C824B00FD9AAE;
+					};
+				};
+			};
+			buildConfigurationList = 567913F22C6C824B00FD9AAE /* Build configuration list for PBXProject "Compedium" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 567913EE2C6C824B00FD9AAE;
+			productRefGroup = 567913F82C6C824B00FD9AAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				567913F62C6C824B00FD9AAE /* Compedium */,
+				567914062C6C824D00FD9AAE /* CompediumTests */,
+				567914102C6C824D00FD9AAE /* CompediumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		567913F52C6C824B00FD9AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567914022C6C824D00FD9AAE /* Preview Assets.xcassets in Resources */,
+				567913FF2C6C824D00FD9AAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567914052C6C824D00FD9AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5679140F2C6C824D00FD9AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		567913F32C6C824B00FD9AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567914352C6CDCAA00FD9AAE /* Entry.swift in Sources */,
+				5679142B2C6C828700FD9AAE /* CompendiumRepository.swift in Sources */,
+				5679142D2C6C829C00FD9AAE /* CompendiumViewModel.swift in Sources */,
+				567914302C6C82C500FD9AAE /* CompendiumView.swift in Sources */,
+				567913FD2C6C824B00FD9AAE /* ContentView.swift in Sources */,
+				567914282C6C826D00FD9AAE /* NetworkService.swift in Sources */,
+				567914332C6C82DA00FD9AAE /* EntryDetailView.swift in Sources */,
+				567914252C6C825500FD9AAE /* HyruleCompendiumAPI.swift in Sources */,
+				567913FB2C6C824B00FD9AAE /* CompediumApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567914032C6C824D00FD9AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5679140C2C6C824D00FD9AAE /* CompediumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5679140D2C6C824D00FD9AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567914182C6C824D00FD9AAE /* CompediumUITestsLaunchTests.swift in Sources */,
+				567914162C6C824D00FD9AAE /* CompediumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		567914092C6C824D00FD9AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 567913F62C6C824B00FD9AAE /* Compedium */;
+			targetProxy = 567914082C6C824D00FD9AAE /* PBXContainerItemProxy */;
+		};
+		567914132C6C824D00FD9AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 567913F62C6C824B00FD9AAE /* Compedium */;
+			targetProxy = 567914122C6C824D00FD9AAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		567914192C6C824D00FD9AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5679141A2C6C824D00FD9AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5679141C2C6C824D00FD9AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Compedium/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommy.Compedium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5679141D2C6C824D00FD9AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Compedium/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommy.Compedium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5679141F2C6C824D00FD9AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommy.CompediumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Compedium.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Compedium";
+			};
+			name = Debug;
+		};
+		567914202C6C824D00FD9AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommy.CompediumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Compedium.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Compedium";
+			};
+			name = Release;
+		};
+		567914222C6C824D00FD9AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommy.CompediumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Compedium;
+			};
+			name = Debug;
+		};
+		567914232C6C824D00FD9AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommy.CompediumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Compedium;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		567913F22C6C824B00FD9AAE /* Build configuration list for PBXProject "Compedium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567914192C6C824D00FD9AAE /* Debug */,
+				5679141A2C6C824D00FD9AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5679141B2C6C824D00FD9AAE /* Build configuration list for PBXNativeTarget "Compedium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5679141C2C6C824D00FD9AAE /* Debug */,
+				5679141D2C6C824D00FD9AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5679141E2C6C824D00FD9AAE /* Build configuration list for PBXNativeTarget "CompediumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5679141F2C6C824D00FD9AAE /* Debug */,
+				567914202C6C824D00FD9AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		567914212C6C824D00FD9AAE /* Build configuration list for PBXNativeTarget "CompediumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567914222C6C824D00FD9AAE /* Debug */,
+				567914232C6C824D00FD9AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 567913EF2C6C824B00FD9AAE /* Project object */;
+}
